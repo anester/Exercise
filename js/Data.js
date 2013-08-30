@@ -6,6 +6,7 @@ var TEMP = TEMP || {};
 
 TEMP.exercises = [
     {
+        Id: 0,
         Name: '',
         MajorMuscleGroup: '',
         Description: '',
@@ -21,10 +22,34 @@ TEMP.exercises = [
     }
 ];
 
+TEMP.set = {
+    Id: 0,
+    ExerciseId: 0,
+    Reps: 0,
+    Resistance: 0,
+    ResistanceType: 0
+}
+
+TEMP.workout = {
+    Name: '',
+    Sets: [
+    ]
+}
+
+TEMP.example1 = {
+    Name:'Workout 1',
+    Id:1,
+    Sets: [
+        {
+            
+        }
+    ]
+}
+
 function ExerciseCollection() {
-    
+
 }
 
 function ExerciseView() {
-    
+
 }
